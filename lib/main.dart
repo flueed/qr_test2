@@ -103,6 +103,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
+//
   //비동기 함수
   Future _scan() async {
     await Permission.camera.request();
